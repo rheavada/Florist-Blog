@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Valentine's Day Florist</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>Valentine's Day Florist</h1>
+	</header>
+	<nav>
+		<a href="#flowers">Flowers</a>
+		<a href="#chocolates">Chocolates</a>
+	</nav>
+	<div class="container">
+		<section id="flowers">
+			<h2>Flowers</h2>
+			<div class="product">
+				<img src="flower1.jpg" alt="Flower 1">
+				<h3>Rose Bouquet</h3>
+				<p>A beautiful bouquet of red roses.</p>
+				<button onclick="addToCart('Rose Bouquet', 'flower')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<img src="flower2.jpg" alt="Flower 2">
+				<h3>Tulip Bouquet</h3>
+				<p>A vibrant bouquet of assorted tulips.</p>
+				<button onclick="addToCart('Tulip Bouquet', 'flower')">Add to Cart</button>
+			</div>
+		</section>
+		<section id="chocolates">
+			<h2>Chocolates</h2>
+			<div class="product">
+				<img src="chocolate1.jpg" alt="Chocolate 1">
+				<h3>Assorted Chocolates</h3>
+				<p>A box of assorted chocolates.</p>
+				<button onclick="addToCart('Assorted Chocolates', 'chocolate')">Add to Cart</button>
+			</div>
+			<div class="product">
+				<img src="chocolate2.jpg" alt="Chocolate 2">
+				<h3>Dark Chocolate Truffles</h3>
+				<p>Delicious dark chocolate truffles.</p>
+				<button onclick="addToCart('Dark Chocolate Truffles', 'chocolate')">Add to Cart</button>
+			</div>
+		</section>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
